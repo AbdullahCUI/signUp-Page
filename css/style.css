@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;1,100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 103, 103);
+}
+
+.hero {
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+form {
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+}
+.input {
+  padding: 15px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border-color: #808080;
+}
+
+.text {
+  max-width: 530px;
+}
+.text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  color: #fff;
+  margin-bottom: 11px;
+}
+
+.text p {
+  line-height: 26px;
+  color: #fff;
+  max-width: 400px;
+}
+.free-trial {
+  background-color: #5E54A4;
+  padding: 10px;
+  box-shadow: #5E54A4;
+  border-radius: 5px;
+  box-shadow: 0 5px   #41414343;
+  text-align: center;
+}
+
+.submit-information {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero form button {
+  background-color: #38CC8B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.hero form p {
+  color: #BAB7D4;
+  font-size: 11px;
+  width: 367px;
+  text-align: center;
+}
+
+ @media (max-width:768px) {
+  .hero {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+  .hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    width: 100%;
+  }
+
+  .text {
+    text-align: center;
+  }
+  .hero .text p {
+    width: 100%;
+  }
+  .submit-information {
+    margin-top: 64px;
+    width: 100%;
+  }
+  .hero .submit-information p {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:998px) {
+  .hero {
+    gap: 20px;
+  }
+  .text h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
